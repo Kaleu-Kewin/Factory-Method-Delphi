@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2025/03/23 21:23:49.000.984,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/21 13:21:58.000.854,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2025/04/21 20:55:06.000.744,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Main.dfm</Transaction>
+    <Transaction>2025/04/21 20:55:06.000.744,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Main.pas</Transaction>
+    <Transaction>2025/04/21 20:55:15.000.068,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Factory.dproj</Transaction>
+    <Transaction>2025/04/21 20:55:27.000.832,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas</Transaction>
+    <Transaction>2025/04/21 20:56:34.000.292,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Veiculos.pas</Transaction>
+    <Transaction>2025/04/21 20:58:29.000.870,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas</Transaction>
+    <Transaction>2025/04/21 21:01:31.000.736,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Concret.Veiculo.pas</Transaction>
+    <Transaction>2025/04/21 21:01:42.000.941,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Veiculos.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Veiculo.pas</Transaction>
+    <Transaction>2025/04/21 21:01:42.000.960,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Veiculo.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Veiculos.pas</Transaction>
+    <Transaction>2025/04/21 21:05:53.000.155,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas</Transaction>
+    <Transaction>2025/04/21 21:09:01.000.298,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Carro.pas</Transaction>
+    <Transaction>2025/04/21 21:09:15.000.644,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas</Transaction>
+    <Transaction>2025/04/21 21:22:49.000.572,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Bicicleta.pas</Transaction>
+    <Transaction>2025/04/21 21:26:37.000.276,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas</Transaction>
+    <Transaction>2025/04/21 21:31:50.000.320,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit2.pas</Transaction>
+    <Transaction>2025/04/21 21:31:54.000.333,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit2.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Enum.pas</Transaction>
+    <Transaction>2025/04/21 21:36:21.000.837,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Unit1.pas=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\FactoryVeiculo.pas</Transaction>
+    <Transaction>2025/04/21 22:29:21.711,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Main.pas</Transaction>
+    <Transaction>2025/04/21 22:29:38.372,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Factory\Bicicleta.pas</Transaction>
+    <Transaction>2025/04/21 22:29:38.401,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Factory\Carro.pas</Transaction>
+    <Transaction>2025/04/21 22:29:38.430,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Factory\Concret.Veiculo.pas</Transaction>
+    <Transaction>2025/04/21 22:29:38.466,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Factory\FactoryVeiculo.pas</Transaction>
+    <Transaction>2025/04/21 22:29:38.494,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Factory\Veiculo.pas</Transaction>
+    <Transaction>2025/04/21 22:29:38.525,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Factory\Veiculos.pas</Transaction>
+    <Transaction>2025/04/21 22:29:46.880,=C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Utils\Enum.pas</Transaction>
+    <Transaction>2025/04/21 22:29:58.204,C:\Users\kaleu\OneDrive\Documentos\Embarcadero\Studio\Projects\Estudo\Factory Method\Factory\Veiculo.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

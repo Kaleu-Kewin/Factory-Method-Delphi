@@ -1,0 +1,12 @@
+unit Enum;
+
+interface
+
+type
+  TVeiculos = (vCarro, vBicicleta);
+
+implementation
+
+function VeiculosExistentes: String;
+
+end.

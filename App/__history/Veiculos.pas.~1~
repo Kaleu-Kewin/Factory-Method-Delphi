@@ -1,0 +1,12 @@
+unit Veiculos;
+
+interface
+
+type
+  iVeiculo = interface
+    function SaiuParaBuscar(Nome: String): String;
+  end;
+
+implementation
+
+end.

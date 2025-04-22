@@ -1,0 +1,41 @@
+unit FactoryVeiculo;
+
+interface
+
+uses
+  Veiculos, Carro, Bicicleta, Enum, System.Generics.Collections, System.SysUtils;
+
+type
+  TFactoryVeiculo = class(TInterfacedObject, iFactoryVeiculo)
+  private
+    FMap: TDictionary<String, iVeiculo>;
+  public
+    constructor Create;
+  
+    class function New: iFactoryVeiculo;
+    function ConsultarVeiculo(Veiculo: String): iVeiculo;
+  end;
+
+implementation
+
+constructor TFactoryVeiculo.Create;
+begin
+  FMap := TDictionary<String, iVeiculo>.Create;
+
+  FMap.Add(VeiculosExistentes(vCarro), TCarro.Create);
+  FMap.Add(VeiculosExistentes(vBicicleta), TBicicleta.Create);
+end;
+
+function TFactoryVeiculo.ConsultarVeiculo(Veiculo: String): iVeiculo;
+begin
+  if Not FMap.TryGetValue(Veiculo, Result) then
+    raise Exception.Create('O Veiculo informado não foi encontrado!')
+end;
+
+class function TFactoryVeiculo.New: iFactoryVeiculo;
+begin
+  Result := Self.Create;
+end;
+
+
+end.

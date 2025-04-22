@@ -1,0 +1,15 @@
+unit Concret.Veiculo;
+
+interface
+
+uses
+  Veiculos;
+
+type
+  TVeiculo = class(TInterfacedObject, iVeiculo)
+
+  end;
+
+implementation
+
+end.

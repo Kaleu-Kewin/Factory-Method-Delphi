@@ -1,0 +1,19 @@
+unit Concret.Veiculo;
+
+interface
+
+uses
+  Veiculos;
+
+type
+  TVeiculo = class(TInterfacedObject, iVeiculo) { Forçado a implementar os métodos de "iVeiculo" }
+    private
+
+    public
+      function SaiuParaBuscar(Nome: String): String;
+      function Parou: String;
+  end;
+
+implementation
+
+end.

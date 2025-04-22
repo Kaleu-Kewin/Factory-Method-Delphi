@@ -1,0 +1,54 @@
+unit Main;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Data.DB, Vcl.Grids,
+  Vcl.DBGrids, Veiculos, FactoryVeiculo, Enum;
+
+type
+  TfrmMain = class(TForm)
+    btnBuscar: TButton;
+    memoVeiculos: TMemo;
+    cmbVeiculos: TComboBox;
+    procedure btnBuscarClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    procedure PreencherVeiculos;
+  public
+
+  end;
+
+var
+  frmMain: TfrmMain;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmMain.FormCreate(Sender: TObject);
+begin
+  PreencherVeiculos;
+end;
+
+procedure TfrmMain.PreencherVeiculos;
+begin
+  cmbVeiculos.Items.Clear;
+  cmbVeiculos.Items.Add(VeiculosExistentes(vCarro));
+  cmbVeiculos.Items.Add(VeiculosExistentes(vBicicleta));
+end;
+
+procedure TfrmMain.btnBuscarClick(Sender: TObject);
+var
+  lFactory: iFactoryVeiculo;
+  lVeiculo: iVeiculo;
+begin
+  lFactory := TFactoryVeiculo.New;
+  lVeiculo := lFactory.ConsultarVeiculo(cmbVeiculos.Items[cmbVeiculos.ItemIndex]);
+
+  memoVeiculos.Lines.Add(lVeiculo.SaiuParaBuscar('Kaléu'));
+  memoVeiculos.Lines.Add(lVeiculo.Parou);
+end;
+
+end.

@@ -1,0 +1,10 @@
+unit Enum;
+
+interface
+
+type
+  TVeiculos = (vCarro, vBicicleta);
+
+implementation
+
+end.

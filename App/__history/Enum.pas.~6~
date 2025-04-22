@@ -1,0 +1,18 @@
+unit Enum;
+
+interface
+
+type
+  TVeiculos = (vCarro, vBicicleta);
+
+implementation
+
+function VeiculosExistentes(oVeiculo: TVeiculos): String;
+begin
+  case oVeiculo of
+    vCarro: Result := 'Carro';
+    vBicicleta: Result := 'Bicicleta';
+  end;
+end;
+
+end.

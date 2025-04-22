@@ -1,0 +1,20 @@
+program Factory;
+
+uses
+  Vcl.Forms,
+  Main in 'Main.pas' {frmMain},
+  Veiculos in 'Veiculos.pas',
+  Concret.Veiculo in 'Concret.Veiculo.pas',
+  Carro in 'Carro.pas',
+  Bicicleta in 'Bicicleta.pas',
+  FactoryVeiculo in 'FactoryVeiculo.pas',
+  Enum in 'Enum.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmMain, frmMain);
+  Application.Run;
+end.

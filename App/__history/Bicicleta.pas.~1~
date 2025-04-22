@@ -1,0 +1,31 @@
+unit Bicicleta;
+
+interface
+
+uses
+  Concret.Veiculo;
+
+type
+  TBicicleta = class(TVeiculo)
+    private
+
+    public
+      function SaiuParaBuscar(Nome: String): String; override;
+      function Parou: String; override;
+  end;
+
+implementation
+
+function TBicicleta.Parou: String;
+begin
+  Result := 'O Carro parou!';
+end;
+
+
+function TBicicleta.SaiuParaBuscar(Nome: String): String;
+begin
+  Result := 'O Carro saiu para buscar: ' + Nome;
+end;
+
+end.
+
